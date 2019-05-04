@@ -1,0 +1,46 @@
+{
+  "name": "nextjs-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^8.0.4",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "devDependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "@types/jest": "^24.0.11",
+    "@types/next": "^8.0.3",
+    "@types/react-redux": "^7.0.6",
+    "@types/styled-components": "^4.1.14",
+    "babel-plugin-styled-components": "^1.10.0",
+    "fork-ts-checker-webpack-plugin": "^1.0.2",
+    "jest": "^24.7.1",
+    "prettier": "1.16.4",
+    "styled-components": "^4.2.0",
+    "ts-jest": "^24.0.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.3"
+  },
+  "scripts": {
+    "develop": "node ./src/server.js",
+    "test": "jest -c ./src/jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomonari-t/eth-interactive-console.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomonari-t/eth-interactive-console/issues"
+  },
+  "homepage": "https://github.com/tomonari-t/eth-interactive-console#readme"
+}
